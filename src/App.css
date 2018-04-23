@@ -1,0 +1,71 @@
+.App {
+  text-align: center;
+  display: flex;
+  border: 1px solid;
+  margin: auto;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  width: 600px;
+  background-color: grey;
+}
+
+.Number {
+  padding: 10px;
+  font-size: 15px;
+}
+
+.ProsCons {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  width: 600px;
+}
+
+.OneTwo {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  height: 400px;
+  width: 600px;
+}
+
+.Title {
+flex-basis: 100%;
+font-color: white;
+}
+
+.Pros {
+border: 1px solid silver;
+flex-basis: 50%;
+height: 30px;
+text-align: center;
+font-size: 20px;
+}
+
+.One {
+border: 1px solid silver;
+flex-basis: 50%;
+overflow: auto;
+}
+
+.Cons {
+border: 1px solid silver;
+flex-basis: 50%;
+height: 30px;
+text-align: center;
+font-size: 20px;
+}
+
+.Two {
+border: 1px solid silver;
+flex-basis: 50%;
+overflow: auto;
+}
+
+.List {
+  margin: 10px;
+  border: none;
+  font-size: 15px;
+}
